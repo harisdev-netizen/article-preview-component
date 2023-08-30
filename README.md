@@ -1,6 +1,6 @@
 # Frontend Mentor - Article preview component
 
-![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Article preview component coding challenge](./assets/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -18,7 +18,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
 
-Your users should be able to: 
+Your users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 - See the social media share links when they click the share icon

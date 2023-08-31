@@ -128,10 +128,10 @@ time {
   footer {
     border-bottom-right-radius: 1.5rem;
   }
-  .btn-share {
-    margin-right: 0.7rem;
-  }
   h3 {
     padding-bottom: 0.3rem;
+  }
+  .btn-share {
+    margin-right: 0.7rem;
   }
 }

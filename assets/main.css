@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #ECF2F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  max-width: 730px;
+}
+
+.card-image {
+  width: 40%;
+  display: flex;
+}
+
+.card-image img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 32px;
+  width: 60%;
+}
+
+.card-content h1 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #48556A;
+}
+
+h1 {
+  padding-bottom: 12px;
+}
+
+.card-content p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  color: #6E8098;
+}
+
+.card-content__info {
+  padding-bottom: 20px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-info h2 {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  color: #48556A;
+}
+
+.author-info p {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  color: #9DAEC2;
+  margin: 0;
+}
+
+.share-button {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background-color: #ecf2f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.share-button img {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
